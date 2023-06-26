@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Text Expander
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my solution to the challenge of utilizing props as a component API and improving component's reusability. The challenge exercise focuses on creating a React component that expands and collapses text with configurable options.
 
-## Available Scripts
+## Challenge Description
 
-In the project directory, you can run:
+In this challenge, I implemented a TextExpander component in React that allows the user to toggle between expanded and collapsed text. The component utilizes props to provide flexibility and reusability. It showcases the concept of using props as a component API to render dynamic content within the component.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Usage
 
-### `npm test`
+To get a local copy of this project up and running, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/mohdShahwan/text-expander.git`
+2. Navigate to the project directory: `cd text-expander`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000` to see the application in action.
 
-### `npm run build`
+## Challenge Solution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In my solution, I created the TextExpander component that allows text to be expanded and collapsed based on the specified number of words. The component accepts various props to customize its behavior, such as the number of words to show in the collapsed state, button texts, button color, and initial expansion state.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The code demonstrates the following concepts:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Utilizing props to configure component behavior.
+- Using state to manage the expanded/collapsed state of the text.
+- Splitting and joining text based on the number of words.
+- Creating a reusable Button component to handle click events.
 
-### `npm run eject`
+Feel free to explore the code and experiment with different use cases.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I would like to express my gratitude to Jonas Schmedtmann for creating the React course on Udemy and providing this opportunity to exercise and enhance my understanding in React.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting this repository and reviewing my solution!
